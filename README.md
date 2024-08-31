@@ -132,7 +132,7 @@
     </header>
 
     <nav>
-        <a href="#" class="box1">Home</a>
+        <a href="#" class="box1">Research</a>
         <a href="#About" class="box2">About</a>
         <a href="#" class="box3">Services</a>
         <a href="#" class="box4">Contact</a>
