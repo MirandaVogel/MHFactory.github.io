@@ -118,9 +118,6 @@
                 gap: 1rem;
             }
         }
-        body > div:first-child {
-            display: none;
-        }
     </style>
 </head>
 
