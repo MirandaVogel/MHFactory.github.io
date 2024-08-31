@@ -91,6 +91,11 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             flex: 1 1 calc(33.333% - 1rem); /* Each card takes up about one-third of the row */
             max-width: 300px; /* Maximum width for each card */
+            min-width: 250px; /* Minimum width for each card */
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
             padding: 1rem;
             text-align: center;
         }
