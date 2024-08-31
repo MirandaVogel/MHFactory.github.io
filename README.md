@@ -42,6 +42,7 @@
             display: inline-block;
             background-color: #4a5587;
             margin: 5px;
+            border-radius: 10px;
         }
 
         /* Hover effect */
@@ -78,7 +79,7 @@
         .content {
             display: flex;
             flex-wrap: wrap;
-            gap: 0.5rem;
+            gap: 1rem;
             justify-content: center; /* This will center the cards in the available space */
         }
 
@@ -87,7 +88,6 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             flex: 1 1 calc(33.333% - 1rem); /* Each card takes up about one-third of the row */
-            min-width: 250px; /* Minimum width for each card */
             max-width: 300px; /* Maximum width for each card */
             padding: 1rem;
             text-align: center;
@@ -118,11 +118,16 @@
             .content {
                 flex-direction: column;
                 align-items: center; /* Center the cards when stacked vertically */
-                gap: 1rem;
+                
             }
             .card {
                 flex: 1 1 100%; /* Make each card take up the full width on smaller screens */
                 max-width: 90%; /* Ensure some padding around the cards */
+            }
+        }
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .card {
+                flex: 1 1 calc(50% - 1rem); /* Make each card take up half the width on medium screens */
             }
         }
     </style>
