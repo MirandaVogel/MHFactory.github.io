@@ -190,7 +190,35 @@
             </div>
         </section>
     </div>
+    <script>
+        // Easing function for smooth start fast and slow end
+        function easeInOutQuad(t) {
+            return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
+        }
 
+        // Custom smooth scrolling function
+        function customSmoothScroll(targetElement, duration) {
+            var targetPosition = targetElement.getBoundingClientRect().top;
+            var startPosition = window.pageYOffset;
+            var startTime = null;
+
+            function animation(currentTime) {
+                if (startTime === null) startTime = currentTime;
+                var timeElapsed = currentTime - startTime;
+                var run = easeInOutQuad(timeElapsed / duration) * targetPosition +                          startPosition;
+                window.scrollTo(0, run);
+                if (timeElapsed < duration) requestAnimationFrame(animation);
+            }
+
+            requestAnimationFrame(animation);
+        }
+
+        document.getElementById('scrollLink').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent default anchor behavior
+            var targetElement = document.querySelector('#target');
+            customSmoothScroll(targetElement, 1000); // Scroll with 1 second duration
+        });
+    </script>
     <footer>
         <p>&copy; 2024 My Website. All rights reserved. Just kidding.</p>
     </footer>
