@@ -42,8 +42,17 @@
             var randomNumber = getRandomNumber(10, 40);
             borderRadius: randomNumber + 'px';/* Adds rounded corners */
         }
+        /*Text in Box 2*/
+        nav box2 {
+            color: #fff;
+            padding: 1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            var randomNumber = getRandomNumber(10, 40);
+            borderRadius: randomNumber + 'px';/* Adds rounded corners */
+        }
         /* Color for when hover on button */
-        nav a:hover {
+        nav box1, box2:hover {
             background: #9abae1;
         }
         /*Big box bellow options*/
@@ -123,8 +132,8 @@
     </header>
 
     <nav>
-        <box1 href="#">Home</a>
-        <a href="#">About</a>
+        <a box1="#">Home</a>
+        <a box2="#">About</a>
         <a href="#">Services</a>
         <a href="#">Contact</a>
     </nav>
