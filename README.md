@@ -39,6 +39,7 @@
             padding: 1rem;
             text-decoration: none;
             text-transform: uppercase;
+            border-radius: 10px 20px 30px 40px;
         }
         /* Color for when hover on button */
         nav a:hover {
