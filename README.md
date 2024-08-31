@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -80,14 +79,16 @@
             display: flex;
             flex-wrap: wrap;
             gap: 0.5rem;
+            justify-content: center; /* This will center the cards in the available space */
         }
 
         .card {
             background: #fff;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            flex: 1;
-            min-width: 250px;
+            flex: 1 1 calc(33.333% - 1rem); /* Each card takes up about one-third of the row */
+            min-width: 250px; /* Minimum width for each card */
+            max-width: 300px; /* Maximum width for each card */
             padding: 1rem;
             text-align: center;
         }
@@ -116,7 +117,12 @@
 
             .content {
                 flex-direction: column;
+                align-items: center; /* Center the cards when stacked vertically */
                 gap: 1rem;
+            }
+            .card {
+                flex: 1 1 100%; /* Make each card take up the full width on smaller screens */
+                max-width: 90%; /* Ensure some padding around the cards */
             }
         }
     </style>
