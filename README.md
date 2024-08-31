@@ -118,10 +118,10 @@
     </header>
 
     <nav>
-        <a href="https://www.example.com" target="_blank">Home</a>
-        <a href="https://www.example.com/about" target="_blank">About</a>
-        <a href="https://www.example.com/services" target="_blank">Services</a>
-        <a href="https://www.example.com/contact" target="_blank">Contact</a>
+        <a href="https://mirandavogel.github.io/MHFactory.github.io/#" target="_blank">Home</a>
+        <a href="https://mirandavogel.github.io/MHFactory.github.io/#/about" target="_blank">About</a>
+        <a href="https://mirandavogel.github.io/MHFactory.github.io/#/services" target="_blank">Services</a>
+        <a href="https://mirandavogel.github.io/MHFactory.github.io/#/contact" target="_blank">Contact</a>
     </nav>
 
     
