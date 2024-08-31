@@ -234,7 +234,7 @@
     <div style="height: 200px;"></div>
 
     <footer>
-        <p>&copy; 2024 My Website. All rights reserved. Just kidding.</p>
+        <p id="Contact">&copy; 2024 My Website. All rights reserved. Just kidding.</p>
     </footer>
 </body>
 
