@@ -114,7 +114,7 @@
 
 <body>
     <header>
-        <h1>MH Factory</h1>
+        <h1>Miranda Vogel</h1>
     </header>
 
     <nav>
@@ -123,7 +123,26 @@
         <a href="#">Services</a>
         <a href="#">Contact</a>
     </nav>
-
+    <section id="home">
+    <h2>Home Section</h2>
+    <p>Welcome to the home section.</p>
+    
+    </section>
+    
+    <section id="about">
+        <h2>About Section</h2>
+        <p>Learn more about us here.</p>
+    </section>
+    
+    <section id="services">
+        <h2>Services Section</h2>
+        <p>Discover our services.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Section</h2>
+        <p>Get in touch with us.</p>
+    </section>
     <section class="hero">
         <div>
             <h1>Your Adventure Awaits</h1>
