@@ -33,44 +33,20 @@
             justify-content: center;
             background: #fcbd84;
         }
-        /*Text in Box 1*/
-        .box1 {
+
+        /* Common styles for all boxes */
+        .box1, .box2, .box3, .box4 {
             color: #fff;
             padding: 1rem;
             text-decoration: none;
             text-transform: uppercase;
-            var randomNumber = getRandomNumber(10, 40);
-            borderRadius: randomNumber + 'px';/* Adds rounded corners */
+            display: inline-block;
+            background-color: #4a5587;
+            margin: 5px;
         }
-        /*Text in Box 2*/
-        .box2 {
-            color: #fff;
-            padding: 1rem;
-            text-decoration: none;
-            text-transform: uppercase;
-            var randomNumber = getRandomNumber(10, 40);
-            borderRadius: randomNumber + 'px';/* Adds rounded corners */
-        }
-        /*Text in Box 3*/
-        .box3 {
-            color: #fff;
-            padding: 1rem;
-            text-decoration: none;
-            text-transform: uppercase;
-            var randomNumber = getRandomNumber(10, 40);
-            borderRadius: randomNumber + 'px';/* Adds rounded corners */
-        }
-        /*Text in Box 4*/
-        .box4 {
-            color: #fff;
-            padding: 1rem;
-            text-decoration: none;
-            text-transform: uppercase;
-            var randomNumber = getRandomNumber(10, 40);
-            borderRadius: randomNumber + 'px';/* Adds rounded corners */
-        }
-        /* Color for when hover on button */
-        .box1:hover, .box2:hover, .box3:hover, .box4:hover   {
+
+        /* Hover effect */
+        .box1:hover, .box2:hover, .box3:hover, .box4:hover {
             background: #9abae1;
         }
 
