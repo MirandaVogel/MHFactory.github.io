@@ -18,9 +18,9 @@
             background-color: #9abae1;
             color: #333;
         }
-
+        /* Background */
         header {
-            background: #d14795;
+            background: #c2edff;
             color: #fff;
             padding: 1rem 0;
             text-align: center;
