@@ -19,7 +19,7 @@
         }
         /* Miranda Top Box */
         
-        header {
+       header {
             position: relative;
             color: #fff;
             padding: 1rem 0;
@@ -28,10 +28,10 @@
             border-top-right-radius: 10px;
             background: #4a5587; /* Solid color for the center area */
             z-index: 1; /* Ensure it's above the pseudo-elements */
-            border-bottom: 3px solid #ffffff; /* Add this line to create a thicker line */
+            border-bottom: 3px solid #ffffff; /* Thicker bottom border */
         }
         
-        /* Move the gradient to the nav section */
+        /* Navigation */
         nav {
             display: flex;
             justify-content: center;
@@ -39,15 +39,17 @@
             width: 100%;
             background: #fcbd84;
             position: relative; /* Make nav relative to position the gradient */
+            padding-bottom: 3rem; /* Add some space at the bottom to make room for the stripes */
         }
         
+        /* Gradient effect underneath buttons */
         nav::after {
             content: '';
             position: absolute;
             left: 0;
             right: 0;
-            bottom: -30px; /* Adjust based on how far down you want the lines */
-            height: 60px; /* Overall height of the striped effect */
+            bottom: 0; /* Position it at the bottom of the nav */
+            height: 60px; /* Height of the striped effect */
             background: repeating-linear-gradient(
                 to bottom,
                 #ffffff, /* White line color */
