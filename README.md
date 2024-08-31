@@ -173,9 +173,10 @@
                 var topRight = getRandomNumber(10, 40);
                 var bottomRight = getRandomNumber(10, 40);
                 var bottomLeft = getRandomNumber(10, 40);
-                element.style.borderRadius = ${topLeft}px ${topRight}px ${bottomRight}px                     ${bottomLeft}px; 
+                element.style.borderRadius = `${topLeft}px ${topRight}px ${bottomRight}px                   ${bottomLeft}px`;
             }
         }
+
 
         /* Apply to each box independently */
         applyRandomBorderRadius('.box1');
