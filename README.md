@@ -20,7 +20,7 @@
         }
 
         header {
-            background: #9abae1;
+            background: #534abf;
             color: #fff;
             padding: 1rem 0;
             text-align: center;
@@ -38,9 +38,9 @@
             text-decoration: none;
             text-transform: uppercase;
         }
-
+        /* ?? */
         nav a:hover {
-            background: #555;
+            background: #9abae1;
         }
 
         .container {
