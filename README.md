@@ -51,7 +51,7 @@
         .box1:hover, .box2:hover, .box3:hover, .box4:hover {
             background: #9abae1;
         }
-        .hero, .container, .content {
+        .container, .content {
             outline: 3px solid red; /* Temporary outline for debugging */
         }
         
