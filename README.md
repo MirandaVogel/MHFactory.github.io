@@ -25,11 +25,11 @@
             padding: 1rem 0;
             text-align: center;
         }
-
+        /* Long box bellow Miranda V*/
         nav {
             display: flex;
             justify-content: center;
-            background: #444;
+            background: #fcbd84;
         }
 
         nav a {
