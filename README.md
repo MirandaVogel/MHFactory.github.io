@@ -18,8 +18,7 @@
             color: #333;
         }
         /* Miranda Top Box */
-        
-      header {
+        header {
             position: relative;
             color: #fff;
             padding: 1rem 0;
@@ -30,7 +29,7 @@
             z-index: 1; /* Ensure it's above the pseudo-elements */
             border-bottom: 3px solid #ffffff; /* Initial line */
         }
-
+        
         header::after {
             content: '';
             position: absolute;
@@ -50,10 +49,9 @@
                 transparent 9px /* More space */
             );
             background-size: 100% 60px;
-            z-index: 0;
+            z-index: 0; /* Ensure the lines are below the nav */
         }
-
-
+        
         /* Long box below Miranda V */
         nav {
             display: flex;
@@ -61,7 +59,10 @@
             align-items: center;
             width: 100%;
             background: #fcbd84;
+            position: relative;
+            z-index: 2; /* Make sure the buttons are above the header lines */
         }
+
 
         /* Common styles for all boxes */
         .box1, .box2, .box3, .box4 {
