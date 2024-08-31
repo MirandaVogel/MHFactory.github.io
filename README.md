@@ -50,11 +50,6 @@
             background: #9abae1;
         }
         
-        /* Smooth scrolling behavior */
-        html {
-            scroll-behavior: smooth;
-        }
-        
         /*Big box bellow options*/
         .container {
             background: #4a5587;
