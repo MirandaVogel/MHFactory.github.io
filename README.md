@@ -19,7 +19,7 @@
         }
         /* Miranda Top Box */
         
-       header {
+      header {
             position: relative;
             color: #fff;
             padding: 1rem 0;
@@ -28,38 +28,26 @@
             border-top-right-radius: 10px;
             background: #4a5587; /* Solid color for the center area */
             z-index: 1; /* Ensure it's above the pseudo-elements */
-            border-bottom: 3px solid #ffffff; /* Thicker bottom border */
+            border-bottom: 3px solid #ffffff; /* Initial line */
         }
-        
-        /* Navigation */
-        nav {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            background: #fcbd84;
-            position: relative; /* Make nav relative to position the gradient */
-            padding-bottom: 3rem; /* Add some space at the bottom to make room for the stripes */
-        }
-        
-        /* Gradient effect underneath buttons */
-        nav::after {
+
+        header::after {
             content: '';
             position: absolute;
             left: 0;
             right: 0;
-            bottom: 0; /* Position it at the bottom of the nav */
-            height: 60px; /* Height of the striped effect */
+            bottom: -30px; /* Adjust this to change the position of the effect */
+            height: 60px; /* Overall height of the striped effect */
             background: repeating-linear-gradient(
                 to bottom,
-                #ffffff, /* White line color */
-                #ffffff 1px, /* Line thickness */
-                transparent 1px, /* Space before the next line */
-                transparent 3px, /* Space before the next line */
+                #ffffff,
+                #ffffff 1px, /* Thin white line */
+                transparent 1px, /* Space between lines */
+                transparent 3px, /* Wider space */
                 #ffffff 4px, /* Thicker white line */
-                #ffffff 6px, /* Additional space for thicker line */
-                transparent 6px, /* Space before the next line */
-                transparent 9px /* Wider space before the next line */
+                #ffffff 6px, /* More space */
+                transparent 6px, /* Larger space */
+                transparent 9px /* More space */
             );
             background-size: 100% 60px;
             z-index: 0;
