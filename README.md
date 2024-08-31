@@ -159,7 +159,30 @@
             </div>
         </section>
     </div>
+    <script>
+        /* Function to generate a random number between min and max */
+        function getRandomNumber(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
 
+        /* Apply random border-radius to each corner of each box */
+        function applyRandomBorderRadius(selector) {
+            var element = document.querySelector(selector);
+            if (element) {
+                var topLeft = getRandomNumber(10, 40);
+                var topRight = getRandomNumber(10, 40);
+                var bottomRight = getRandomNumber(10, 40);
+                var bottomLeft = getRandomNumber(10, 40);
+                element.style.borderRadius = ${topLeft}px ${topRight}px ${bottomRight}px                     ${bottomLeft}px; 
+            }
+        }
+
+        /* Apply to each box independently */
+        applyRandomBorderRadius('.box1');
+        applyRandomBorderRadius('.box2');
+        applyRandomBorderRadius('.box3');
+        applyRandomBorderRadius('.box4');
+    </script>
     <script>
         // Easing function for smooth start fast and slow end
         function easeInOutQuad(t) {
