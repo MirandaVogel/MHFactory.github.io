@@ -34,7 +34,7 @@
             background: #fcbd84;
         }
         /*Text in Box 1*/
-        nav box1 {
+        .box1 {
             color: #fff;
             padding: 1rem;
             text-decoration: none;
@@ -43,7 +43,25 @@
             borderRadius: randomNumber + 'px';/* Adds rounded corners */
         }
         /*Text in Box 2*/
-        nav box2 {
+        .box2 {
+            color: #fff;
+            padding: 1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            var randomNumber = getRandomNumber(10, 40);
+            borderRadius: randomNumber + 'px';/* Adds rounded corners */
+        }
+        /*Text in Box 3*/
+        .box3 {
+            color: #fff;
+            padding: 1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            var randomNumber = getRandomNumber(10, 40);
+            borderRadius: randomNumber + 'px';/* Adds rounded corners */
+        }
+        /*Text in Box 4*/
+        .box4 {
             color: #fff;
             padding: 1rem;
             text-decoration: none;
@@ -52,9 +70,10 @@
             borderRadius: randomNumber + 'px';/* Adds rounded corners */
         }
         /* Color for when hover on button */
-        nav box1, box2:hover {
+        .box1:hover, .box2:hover, .box3:hover, .box4:hover   {
             background: #9abae1;
         }
+
         /*Big box bellow options*/
         .container {
             background: #4a5587;
@@ -132,10 +151,10 @@
     </header>
 
     <nav>
-        <a box1="#">Home</a>
-        <a box2="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
+        <a href="#" class="box1">Home</a>
+        <a href="#" class="box2">About</a>
+        <a href="#" class="box3">Services</a>
+        <a href="#" class="box4">Contact</a>
     </nav>
 
     
