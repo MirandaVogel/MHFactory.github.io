@@ -98,6 +98,7 @@
             justify-content: space-between;
             padding: 1rem;
             text-align: center;
+            margin: 0 auto; /* Center the card itself */
         }
 
         .card img {
