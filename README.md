@@ -11,16 +11,16 @@
             padding: 0;
             box-sizing: border-box;
         }
-        /* Miranda Top Box */
+        /* Background */
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            background-color: #9abae1;
+            background-color: #c2edff;
             color: #333;
         }
-        /* Background */
+        /* Miranda Top Box */
         header {
-            background: #c2edff;
+            background: #4a5587 ;
             color: #fff;
             padding: 1rem 0;
             text-align: center;
