@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -159,6 +160,7 @@
             </div>
         </section>
     </div>
+
     <script>
         /* Function to generate a random number between min and max */
         function getRandomNumber(min, max) {
@@ -173,10 +175,9 @@
                 var topRight = getRandomNumber(10, 40);
                 var bottomRight = getRandomNumber(10, 40);
                 var bottomLeft = getRandomNumber(10, 40);
-                element.style.borderRadius = `${topLeft}px ${topRight}px ${bottomRight}px                   ${bottomLeft}px`;
+                element.style.borderRadius = `${topLeft}px ${topRight}px ${bottomRight}px ${bottomLeft}px`;
             }
         }
-
 
         /* Apply to each box independently */
         applyRandomBorderRadius('.box1');
