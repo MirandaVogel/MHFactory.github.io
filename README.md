@@ -34,13 +34,13 @@
             background: #fcbd84;
         }
         /*Text in Box 1*/
-        nav a {
+        nav box1 {
             color: #fff;
             padding: 1rem;
             text-decoration: none;
             text-transform: uppercase;
-            var randomNumber = Math.floor(Math.random() * (41 - 10)) + 10
-            border-radius: randomNumber+px; /* Adds rounded corners */
+            var randomNumber = getRandomNumber(10, 40);
+            borderRadius: randomNumber + 'px';/* Adds rounded corners */
         }
         /* Color for when hover on button */
         nav a:hover {
@@ -123,10 +123,10 @@
     </header>
 
     <nav>
-        <a href="https://mirandavogel.github.io/MHFactory.github.io/" target="_blank">Home</a>
-        <a href="https://mirandavogel.github.io/MHFactory.github.io/about" target="_blank">About</a>
-        <a href="https://mirandavogel.github.io/MHFactory.github.io/services" target="_blank">Services</a>
-        <a href="https://mirandavogel.github.io/MHFactory.github.io/contact" target="_blank">Contact</a>
+        <box1 href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
     </nav>
 
     
@@ -164,3 +164,6 @@
 </body>
 
 </html>
+function getRandomNumber(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
