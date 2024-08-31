@@ -43,7 +43,7 @@
                 rgba(74, 85, 135, 0) 80%,   /* Keep transparent till 80% */
                 rgba(74, 85, 135, 1) 100% /* Gradient ending at right */
             ),
-            url(forestSmog) no-repeat center center/cover;
+            url() no-repeat center center/cover;
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
             z-index: -1; /* Place it behind the header content */
@@ -91,7 +91,7 @@
         }
 
         .hero {
-            background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+            background: url('ForestSmog.jpg') no-repeat center center/cover;
             color: #fff;
             min-height: 400px; /* Change height to min-height if needed */
             display: flex;
