@@ -79,8 +79,10 @@
         .content {
             display: flex;
             flex-wrap: wrap;
+            justify-content: center; /* Center the cards horizontally */
+            align-items: stretch; /* Make sure the cards have equal height */
             gap: 1rem;
-            justify-content: center; /* This will center the cards in the available space */
+            padding: 1rem;
         }
 
         .card {
