@@ -33,13 +33,14 @@
             justify-content: center;
             background: #fcbd84;
         }
-        /*Text in Box*/
+        /*Text in Box 1*/
         nav a {
             color: #fff;
             padding: 1rem;
             text-decoration: none;
             text-transform: uppercase;
-            border-radius: 10px 20px 30px 40px;
+            var randomNumber = Math.floor(Math.random() * (41 - 10)) + 10
+            border-radius: randomNumber+px; /* Adds rounded corners */
         }
         /* Color for when hover on button */
         nav a:hover {
