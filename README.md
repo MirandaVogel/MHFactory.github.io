@@ -234,7 +234,7 @@
     <div style="height: 200px;"></div>
 
     <footer>
-        <p id="Contact">&copy; 2024 My Website. All rights reserved. Just kidding.</p>
+        <p id="Contact">Phone: +1(206)-765-9713 Email: Miranda.Vogel@kennedyhs.org</p>
     </footer>
 </body>
 
