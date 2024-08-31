@@ -1,12 +1,12 @@
 <script>
-        // Hide unwanted GitHub Pages banner
+// Hide unwanted GitHub Pages banner
         document.addEventListener("DOMContentLoaded", function() {
             var unwantedText = document.querySelector("body > div:first-child");
             if (unwantedText) {
                 unwantedText.style.display = "none";
             }
         });
-    </script>
+</script>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
