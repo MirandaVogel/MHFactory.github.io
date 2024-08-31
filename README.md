@@ -223,7 +223,7 @@
                 <img src="https://via.placeholder.com/300" alt="Placeholder Image">
                 <h2>Services</h2>
                 <p>Coding Python, Java, JavaScript, and HTML. 
-                Providing youtube, instagram excel data.</p>
+                Provide and sort youtube, instagram excel data.</p>
             </div>
         </section>
     </div>
