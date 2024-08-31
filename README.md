@@ -207,19 +207,19 @@
 
     <div class="container">
         <section class="content">
-            <div class="card"  id="Research" id="About" id="Services">
+            <div class="card"  id="Research">
                 <img src="https://via.placeholder.com/300" alt="Placeholder                         Image">
                 <h2>Research</h2>
                 <p>YoutubeAPI which mental health disorders most represented and                 liked. Lead Artist internship at Spiderweb Software.</p>
             </div>
 
-            <div class="card">
+            <div class="card"  id="About">
                 <img src="https://via.placeholder.com/300" alt="Placeholder      Image">
                 <h2 id="Services">About</h2>
                 <p>On the side I watch animated tv shows like Arcane, and Gumball. Watching Valorant, Splatoon tournaments. Independent studies.</p>
             </div>
 
-            <div class="card">
+            <div class="card" id="Services">
                 <img src="https://via.placeholder.com/300" alt="Placeholder      Image">
                 <h2>Services</h2>
                 <p>Coding Python, Java, JavaScript, and HTML. 
