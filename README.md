@@ -168,7 +168,7 @@
         <section class="content">
             <div class="card">
                 <img src="https://via.placeholder.com/300" alt="Placeholder Image">
-                <h2 id="About">IDK</h2>
+                <h2 id="About">About Box</h2>
                 <p>IDKe.</p>
             </div>
 
