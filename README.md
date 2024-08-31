@@ -92,7 +92,7 @@
         }
 
         .hero {
-            background: url(https://im.ge/i/ForestSmog.fxSnnp) no-repeat center center/cover;
+            background: url('https://i.im.ge/2024/08/31/fxSnnp.ForestSmog.jpeg') no-repeat center center/cover;
             color: #fff;
             min-height: 400px; /* Change height to min-height if needed */
             display: flex;
