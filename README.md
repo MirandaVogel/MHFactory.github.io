@@ -52,7 +52,7 @@
         /*Big box below options*/
         .container {
             background: #4a5587;
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
             padding: 1rem;
         }
@@ -78,7 +78,7 @@
         .content {
             display: flex;
             flex-wrap: wrap;
-            gap: 1rem;
+            gap: 0.5rem;
         }
 
         .card {
@@ -86,7 +86,7 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             flex: 1;
-            min-width: 300px;
+            min-width: 250px;
             padding: 1rem;
             text-align: center;
         }
@@ -115,6 +115,7 @@
 
             .content {
                 flex-direction: column;
+                gap: 1rem;
             }
         }
         body > div:first-child {
@@ -220,7 +221,6 @@
             });
         });
     </script>
-       /* Spacer to increase height by 200px */
     <div style="height: 200px;"></div>
 
     <footer>
