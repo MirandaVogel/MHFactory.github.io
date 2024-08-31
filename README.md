@@ -201,7 +201,7 @@
 
     <section class="hero">
         <div>
-            <h1>Welcome to My Website</h1>
+            <h1>About Me</h1>
         </div>
     </section>
 
