@@ -128,7 +128,7 @@
 
     <nav>
         <a href="#" class="box1">Home</a>
-        <a href="#" class="box2">About</a>
+        <a href="#About" class="box2">About</a>
         <a href="#" class="box3">Services</a>
         <a href="#" class="box4">Contact</a>
     </nav>
@@ -168,7 +168,7 @@
         <section class="content">
             <div class="card">
                 <img src="https://via.placeholder.com/300" alt="Placeholder Image">
-                <h2>IDK</h2>
+                <h2 id="About">IDK</h2>
                 <p>IDKe.</p>
             </div>
 
