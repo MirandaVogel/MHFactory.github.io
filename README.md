@@ -216,7 +216,8 @@
             <div class="card">
                 <img src="https://via.placeholder.com/300" alt="Placeholder Image">
                 <h2 id="Services">About</h2>
-                <p>Description of about goes here.</p>
+                <p>Coding Python, Java, JavaScript, and HTML. 
+                Providing youtube, instagram excel data </p>
             </div>
 
             <div class="card">
