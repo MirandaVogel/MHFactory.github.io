@@ -15,7 +15,7 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            background-color: #d2f4ff;
+            background-color: #d14795;
             color: #333;
         }
 
@@ -38,7 +38,7 @@
             text-decoration: none;
             text-transform: uppercase;
         }
-        /* ?? */
+        /* Color for when hover on button */
         nav a:hover {
             background: #9abae1;
         }
