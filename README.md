@@ -30,6 +30,8 @@
         nav {
             display: flex;
             justify-content: center;
+            align-items: center;
+            width: 100%;
             background: #fcbd84;
         }
 
@@ -61,11 +63,12 @@
         .hero {
             background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
             color: #fff;
-            height: 400px;
+            min-height: 400px; /* Change height to min-height if needed */
             display: flex;
             justify-content: center;
             align-items: center;
             text-align: center;
+            width: 100%;
         }
 
         .hero h1 {
