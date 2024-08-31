@@ -52,12 +52,12 @@
             background: #9abae1;
         }
         .hero, .container, .content {
-                outline: 1px solid red; /* Temporary outline for debugging */
-            }
-            
-            .card {
-                outline: 1px solid blue; /* Temporary outline for debugging */
-            }
+            outline: 3px solid red; /* Temporary outline for debugging */
+        }
+        
+        .card {
+            outline: 3px solid blue; /* Temporary outline for debugging */
+        }
         /*Big box below options*/
         .container {
             background: #4a5587;
