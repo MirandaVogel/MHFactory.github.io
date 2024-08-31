@@ -194,21 +194,21 @@
 
     <div class="container">
         <section class="content">
-            <div class="card">
+            <div class="card"  id="Research">
                 <img src="https://via.placeholder.com/300" alt="Placeholder Image">
-                <h2 id="Research">Research Box</h2>
+                <h2 id="About">Research Box</h2>
                 <p>Description of research goes here.</p>
             </div>
 
             <div class="card">
                 <img src="https://via.placeholder.com/300" alt="Placeholder Image">
-                <h2 id="About">About Box</h2>
+                <h2 id="Services">About Box</h2>
                 <p>Description of about goes here.</p>
             </div>
 
             <div class="card">
                 <img src="https://via.placeholder.com/300" alt="Placeholder Image">
-                <h2 id="Services">Services Box</h2>
+                <h2>Services Box</h2>
                 <p>Description of services goes here.</p>
             </div>
         </section>
