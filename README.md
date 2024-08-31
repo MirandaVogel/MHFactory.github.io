@@ -214,16 +214,16 @@
             </div>
 
             <div class="card">
-                <img src="https://via.placeholder.com/300" alt="Placeholder                         Image">
+                <img src="https://via.placeholder.com/300" alt="Placeholder      Image">
                 <h2 id="Services">About</h2>
                 <p>On the side I watch animated tv shows like Arcane, and Gumball. Watching Valorant, Splatoon tournaments. Independent studies about APIs, Art and coding languages.</p>
             </div>
 
             <div class="card">
-                <img src="https://via.placeholder.com/300" alt="Placeholder                         Image">
+                <img src="https://via.placeholder.com/300" alt="Placeholder      Image">
                 <h2>Services</h2>
                 <p>Coding Python, Java, JavaScript, and HTML. 
-                Provide and sort youtube, instagram excel data.</p>
+                Provide and sort youtube, instagram excel data. Can produce, inked, and digital art.</p>
             </div>
         </section>
     </div>
