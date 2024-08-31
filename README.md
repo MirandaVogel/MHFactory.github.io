@@ -159,6 +159,9 @@
             padding: 1rem 0;
             margin-top: 2rem;
         }
+        h2 a::after {
+            content: none !important;
+        }
 
         @media (max-width: 768px) {
             .hero h1 {
