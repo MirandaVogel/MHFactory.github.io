@@ -38,10 +38,10 @@
             bottom: 0;
             background: linear-gradient(
                 to right,
-                rgba(74, 85, 135, 1) 0%,  /* Gradient starting from left */
+                rgba(74, 85, 135, 0.99) 0%,  /* Gradient starting from left */
                 rgba(74, 85, 135, 0) 20%,   /* Fade to transparent by 20% */
                 rgba(74, 85, 135, 0) 80%,   /* Keep transparent till 80% */
-                rgba(74, 85, 135, 1) 100% /* Gradient ending at right */
+                rgba(74, 85, 135, 0.99) 100% /* Gradient ending at right */
             ),
             url() no-repeat center center/cover;
             border-top-left-radius: 10px;
