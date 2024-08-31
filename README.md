@@ -15,12 +15,12 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            background-color: #d14795;
+            background-color: #9abae1;
             color: #333;
         }
 
         header {
-            background: #534abf;
+            background: #d14795;
             color: #fff;
             padding: 1rem 0;
             text-align: center;
