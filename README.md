@@ -25,31 +25,33 @@
             text-align: center;
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
-            background: #4a5587; /* Solid color for the center area (red) */
+            background: #4a5587; /* Solid color for the center area */
             z-index: 1; /* Ensure it's above the pseudo-elements */
             border-bottom: 3px solid #ffffff; /* Add this line to create a thicker line */
         }
         
-        header::before {
+        header::after {
             content: '';
             position: absolute;
-            top: 0;
             left: 0;
             right: 0;
-            bottom: 0;
-            background: linear-gradient(
-                to right,
-                rgba(74, 85, 135, 0.1) 0%,  /* Gradient starting from left */
-                rgba(74, 85, 135, 0) 20%,   /* Fade to transparent by 20% */
-                rgba(74, 85, 135, 0) 80%,   /* Keep transparent till 80% */
-                rgba(74, 85, 135, 0.1) 100% /* Gradient ending at right */
-            ),
-            url() no-repeat center center/cover;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-            z-index: -1; /* Place it behind the header content */
-            opacity: 1; /* Ensure it's fully visible */
+            bottom: -30px; /* Adjust based on how far down you want the lines */
+            height: 60px; /* Overall height of the striped effect */
+            background: repeating-linear-gradient(
+                to bottom,
+                #ffffff, /* White line color */
+                #ffffff 1px, /* Line thickness */
+                transparent 1px, /* Space before the next line */
+                transparent 3px, /* Space before the next line */
+                #ffffff 4px, /* Thicker white line */
+                #ffffff 6px, /* Additional space for thicker line */
+                transparent 6px, /* Space before the next line */
+                transparent 9px /* Wider space before the next line */
+            );
+            background-size: 100% 60px;
+            z-index: 0;
         }
+
         /* Long box below Miranda V */
         nav {
             display: flex;
@@ -92,7 +94,14 @@
         }
 
         .hero {
-            background: url('https://i.im.ge/2024/08/31/fxSnnp.ForestSmog.jpeg') no-repeat center center/cover;
+            background: linear-gradient(
+                to right,
+                rgba(74, 85, 135, 0.1) 0%,  /* Gradient starting from left */
+                rgba(74, 85, 135, 0) 20%,   /* Fade to transparent by 20% */
+                rgba(74, 85, 135, 0) 80%,   /* Keep transparent till 80% */
+                rgba(74, 85, 135, 0.1) 100% /* Gradient ending at right */
+            ),
+            url('https://i.im.ge/2024/08/31/fxSnnp.ForestSmog.jpeg') no-repeat center center/cover;
             color: #fff;
             min-height: 400px; /* Change height to min-height if needed */
             display: flex;
