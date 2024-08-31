@@ -56,7 +56,7 @@
         }
         
         .card {
-            outline: 3px solid blue; /* Temporary outline for debugging */
+            outline: 3px solid gray; /* Temporary outline for debugging */
         }
         /*Big box below options*/
         .container {
