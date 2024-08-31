@@ -81,7 +81,7 @@
         .card {
             outline: 3px solid gray; /* Temporary outline for debugging */
         }
-        /*Big box below options*/
+        /*Big box below options. USed https://im.ge/upload for HTTPS image*/
         .container {
             background: #4a5587;
             max-width: 1400px;
@@ -91,7 +91,7 @@
         }
 
         .hero {
-            background: url('images/ForestSmog.jpg') no-repeat center center/cover;
+            background: url(https://im.ge/i/ForestSmog.fxSnnp) no-repeat center center/cover;
             color: #fff;
             min-height: 400px; /* Change height to min-height if needed */
             display: flex;
