@@ -160,7 +160,7 @@
     
     <section class="hero">
         <div>
-            <h1>Your Adventure Awaits</h1>
+            <h1></h1>
         </div>
     </section>
 
@@ -168,20 +168,20 @@
         <section class="content">
             <div class="card">
                 <img src="https://via.placeholder.com/300" alt="Placeholder Image">
-                <h2>Destination 1</h2>
-                <p>Explore the beautiful scenery and rich culture.</p>
+                <h2>IDK</h2>
+                <p>IDKe.</p>
             </div>
 
             <div class="card">
                 <img src="https://via.placeholder.com/300" alt="Placeholder Image">
-                <h2>Destination 2</h2>
-                <p>Discover the hidden gems of this location.</p>
+                <h2>IDK</h2>
+                <p>IDK.</p>
             </div>
 
             <div class="card">
                 <img src="https://via.placeholder.com/300" alt="Placeholder Image">
-                <h2>Destination 3</h2>
-                <p>Experience the adventure of a lifetime.</p>
+                <h2>IDK</h2>
+                <p>IDK</p>
             </div>
         </section>
     </div>
