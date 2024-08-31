@@ -127,7 +127,6 @@
     <section class="hero">
         <div>
             <h1>Your Adventure Awaits</h1>
-            <p>Explore the world with us</p>
         </div>
     </section>
 
