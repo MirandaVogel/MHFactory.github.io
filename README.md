@@ -15,7 +15,7 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            background-color: #c2edff;
+            background-color: #703575;
             color: #333;
         }
         /* Miranda Top Box */
@@ -31,7 +31,7 @@
             justify-content: center;
             background: #fcbd84;
         }
-
+        /*Text in Box*/
         nav a {
             color: #fff;
             padding: 1rem;
@@ -42,8 +42,9 @@
         nav a:hover {
             background: #9abae1;
         }
-
+        /*Big box bellow options*/
         .container {
+            background: #4a5587;
             max-width: 1200px;
             margin: 0 auto;
             padding: 1rem;
