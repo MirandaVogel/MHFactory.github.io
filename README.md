@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -20,7 +19,7 @@
         }
         /* Miranda Top Box */
         header {
-            background: #4a5587 ;
+            background: #4a5587;
             color: #fff;
             padding: 1rem 0;
             text-align: center;
@@ -50,7 +49,7 @@
             background: #9abae1;
         }
         
-        /*Big box below options*/
+        /* Big box below options */
         .container {
             background: #4a5587;
             max-width: 1200px;
@@ -161,63 +160,8 @@
         </section>
     </div>
 
-    <script>
-        /* Function to generate a random number between min and max */
-        function getRandomNumber(min, max) {
-            return Math.floor(Math.random() * (max - min + 1)) + min;
-        }
-
-        /* Apply random border-radius to each corner of each box */
-        function applyRandomBorderRadius(selector) {
-            var element = document.querySelector(selector);
-            if (element) {
-                var topLeft = getRandomNumber(10, 40);
-                var topRight = getRandomNumber(10, 40);
-                var bottomRight = getRandomNumber(10, 40);
-                var bottomLeft = getRandomNumber(10, 40);
-                element.style.borderRadius = `${topLeft}px ${topRight}px ${bottomRight}px ${bottomLeft}px`;
-            }
-        }
-
-        /* Apply to each box independently */
-        applyRandomBorderRadius('.box1');
-        applyRandomBorderRadius('.box2');
-        applyRandomBorderRadius('.box3');
-        applyRandomBorderRadius('.box4');
-    </script>
-    <script>
-        // Easing function for smooth start fast and slow end
-        function easeInOutQuad(t) {
-            return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
-        }
-
-        // Custom smooth scrolling function
-        function customSmoothScroll(targetElement, duration) {
-            var targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
-            var startPosition = window.pageYOffset;
-            var startTime = null;
-
-            function animation(currentTime) {
-                if (startTime === null) startTime = currentTime;
-                var timeElapsed = currentTime - startTime;
-                var run = easeInOutQuad(timeElapsed / duration) * (targetPosition - startPosition) + startPosition;
-                window.scrollTo(0, run);
-                if (timeElapsed < duration) {
-                    requestAnimationFrame(animation);
-                }
-            }
-
-            requestAnimationFrame(animation);
-        }
-
-        document.querySelectorAll('nav a').forEach(link => {
-            link.addEventListener('click', function(event) {
-                event.preventDefault(); // Prevent default anchor behavior
-                var targetElement = document.querySelector(this.getAttribute('href'));
-                customSmoothScroll(targetElement, 1000); // Scroll with 1 second duration
-            });
-        });
-    </script>
+    <!-- Spacer to increase height by 200px -->
+    <div style="height: 200px;"></div>
 
     <footer>
         <p>&copy; 2024 My Website. All rights reserved. Just kidding.</p>
