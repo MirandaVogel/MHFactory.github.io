@@ -1,3 +1,12 @@
+<script>
+        // Hide unwanted GitHub Pages banner
+        document.addEventListener("DOMContentLoaded", function() {
+            var unwantedText = document.querySelector("body > div:first-child");
+            if (unwantedText) {
+                unwantedText.style.display = "none";
+            }
+        });
+    </script>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -218,15 +227,7 @@
             });
         });
     </script>
-    <script>
-        // Hide unwanted GitHub Pages banner
-        document.addEventListener("DOMContentLoaded", function() {
-            var unwantedText = document.querySelector("body > div:first-child");
-            if (unwantedText) {
-                unwantedText.style.display = "none";
-            }
-        });
-    </script>
+    
     <div style="height: 200px;"></div>
 
     <footer>
