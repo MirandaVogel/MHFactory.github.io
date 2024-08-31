@@ -18,6 +18,7 @@
             color: #333;
         }
         /* Miranda Top Box */
+        
         header {
             position: relative;
             color: #fff;
@@ -30,7 +31,17 @@
             border-bottom: 3px solid #ffffff; /* Add this line to create a thicker line */
         }
         
-        header::after {
+        /* Move the gradient to the nav section */
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            background: #fcbd84;
+            position: relative; /* Make nav relative to position the gradient */
+        }
+        
+        nav::after {
             content: '';
             position: absolute;
             left: 0;
@@ -51,6 +62,7 @@
             background-size: 100% 60px;
             z-index: 0;
         }
+
 
         /* Long box below Miranda V */
         nav {
