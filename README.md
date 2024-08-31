@@ -24,7 +24,8 @@
             color: #fff;
             padding: 1rem 0;
             text-align: center;
-            border-radius: 10px; /* Adds rounded corners */
+            border-top-left-radius: 10px;  /* Rounds the top-left corner */
+            border-top-right-radius: 10px; /* Rounds the top-right corner */
         }
         /* Long box bellow Miranda V*/
         nav {
