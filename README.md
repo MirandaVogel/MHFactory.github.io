@@ -209,19 +209,19 @@
         <section class="content">
             <div class="card"  id="Research">
                 <img src="https://via.placeholder.com/300" alt="Placeholder Image">
-                <h2 id="About">Research Box</h2>
+                <h2 id="About">Research</h2>
                 <p>Description of research goes here.</p>
             </div>
 
             <div class="card">
                 <img src="https://via.placeholder.com/300" alt="Placeholder Image">
-                <h2 id="Services">About Box</h2>
+                <h2 id="Services">About</h2>
                 <p>Description of about goes here.</p>
             </div>
 
             <div class="card">
                 <img src="https://via.placeholder.com/300" alt="Placeholder Image">
-                <h2>Services Box</h2>
+                <h2>Services</h2>
                 <p>Description of services goes here.</p>
             </div>
         </section>
