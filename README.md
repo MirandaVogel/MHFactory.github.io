@@ -19,18 +19,35 @@
         }
         /* Miranda Top Box */
         header {
-            background: 
-                linear-gradient(
-                    to bottom,
-                    rgba(74, 85, 135, 0.8), /* Start with some transparency */
-                    rgba(74, 85, 135, 1) 100% /* Fully solid color at the bottom */
-                ),
-                url('hoh-river-valley.jpg') no-repeat center center/cover; /* Image behind the gradient */
+            position: relative;
             color: #fff;
             padding: 1rem 0;
             text-align: center;
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
+            background: #4a5587; /* Solid color for the center area (red) */
+            z-index: 1; /* Ensure it's above the pseudo-elements */
+        }
+        
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(
+                to right,
+                rgba(74, 85, 135, 0.8) 0%,  /* Gradient starting from left */
+                rgba(74, 85, 135, 0) 20%,   /* Fade to transparent by 20% */
+                rgba(74, 85, 135, 0) 80%,   /* Keep transparent till 80% */
+                rgba(74, 85, 135, 0.8) 100% /* Gradient ending at right */
+            ),
+            url('hoh-river-valley.jpg') no-repeat center center/cover;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            z-index: -1; /* Place it behind the header content */
+            opacity: 1; /* Ensure it's fully visible */
         }
         /* Long box below Miranda V */
         nav {
