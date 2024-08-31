@@ -118,31 +118,13 @@
     </header>
 
     <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
+        <a href="https://www.example.com" target="_blank">Home</a>
+        <a href="https://www.example.com/about" target="_blank">About</a>
+        <a href="https://www.example.com/services" target="_blank">Services</a>
+        <a href="https://www.example.com/contact" target="_blank">Contact</a>
     </nav>
-    <section id="home">
-    <h2>Home Section</h2>
-    <p>Welcome to the home section.</p>
+
     
-    </section>
-    
-    <section id="about">
-        <h2>About Section</h2>
-        <p>Learn more about us here.</p>
-    </section>
-    
-    <section id="services">
-        <h2>Services Section</h2>
-        <p>Discover our services.</p>
-    </section>
-    
-    <section id="contact">
-        <h2>Contact Section</h2>
-        <p>Get in touch with us.</p>
-    </section>
     <section class="hero">
         <div>
             <h1>Your Adventure Awaits</h1>
