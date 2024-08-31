@@ -193,7 +193,7 @@
     </header>
 
     <nav>
-        <a href="#Research" class="box1">Research</a>
+        <a href="#Research" class="box1">WOrk</a>
         <a href="#About" class="box2">About</a>
         <a href="#Services" class="box3">Services</a>
         <a href="#Contact" class="box4">Contact</a>
@@ -210,7 +210,7 @@
             <div class="card"  id="Research" id="About" id="Services">
                 <img src="https://via.placeholder.com/300" alt="Placeholder                         Image">
                 <h2>Research</h2>
-                <p>YoutubeAPI which mental health disorders most represented and                 liked. Wrote on the modern war on poverty. </p>
+                <p>YoutubeAPI which mental health disorders most represented and                 liked. Lead Artist internship at Spiderweb Software. Wrote on the modern war on poverty. </p>
             </div>
 
             <div class="card">
