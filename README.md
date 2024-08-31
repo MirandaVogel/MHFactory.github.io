@@ -91,7 +91,7 @@
         }
 
         .hero {
-            background: url('images/forestsmog.jpg') no-repeat center center/cover;
+            background: url('images/ForestSmog.jpg') no-repeat center center/cover;
             color: #fff;
             min-height: 400px; /* Change height to min-height if needed */
             display: flex;
