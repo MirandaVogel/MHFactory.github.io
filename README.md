@@ -27,6 +27,7 @@
             border-top-right-radius: 10px;
             background: #4a5587; /* Solid color for the center area (red) */
             z-index: 1; /* Ensure it's above the pseudo-elements */
+            border-bottom: 3px solid #ffffff; /* Add this line to create a thicker line */
         }
         
         header::before {
