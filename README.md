@@ -117,6 +117,9 @@
                 flex-direction: column;
             }
         }
+        body > div:first-child {
+            display: none;
+        }
     </style>
 </head>
 
