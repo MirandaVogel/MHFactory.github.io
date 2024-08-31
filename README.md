@@ -127,10 +127,10 @@
     </header>
 
     <nav>
-        <a href="#" class="box1">Research</a>
-        <a href="#About" class="box2">About</a>
-        <a href="#" class="box3">Services</a>
-        <a href="#" class="box4">Contact</a>
+        <a href="#Research" class="box1" id="scrollLink">Research</a>
+        <a href="#About" class="box2" id="scrollLink">About</a>
+        <a href="#Services" class="box3" id="scrollLink">Services</a>
+        <a href="#Contact" class="box4" id="scrollLink">Contact</a>
     </nav>
 
     <script>
