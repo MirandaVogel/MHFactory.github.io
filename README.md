@@ -210,7 +210,7 @@
             <div class="card"  id="Research">
                 <img src="https://via.placeholder.com/300" alt="Placeholder Image">
                 <h2 id="About">Research</h2>
-                <p>YoutubeAPI Mental Health Disorders, Excel. </p>
+                <p>YoutubeAPI Which Mental Health Disorders Most Represented. </p>
             </div>
 
             <div class="card">
