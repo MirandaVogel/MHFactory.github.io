@@ -80,7 +80,7 @@
             background: #9abae1;
         }
         .container, .content {
-            outline: 3px solid red; /* Temporary outline for debugging */
+            outline: 2px solid red; /* Temporary outline for debugging */
         }
         
         .card {
