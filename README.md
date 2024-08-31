@@ -216,7 +216,7 @@
             <div class="card">
                 <img src="https://via.placeholder.com/300" alt="Placeholder      Image">
                 <h2 id="Services">About</h2>
-                <p>On the side I watch animated tv shows like Arcane, and Gumball. Watching Valorant, Splatoon tournaments. Independent studies about APIs, Art and coding languages.</p>
+                <p>On the side I watch animated tv shows like Arcane, and Gumball. Watching Valorant, Splatoon tournaments. Independent studies.</p>
             </div>
 
             <div class="card">
