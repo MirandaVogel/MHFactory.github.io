@@ -43,7 +43,7 @@
                 rgba(74, 85, 135, 0) 80%,   /* Keep transparent till 80% */
                 rgba(74, 85, 135, 0.9) 100% /* Gradient ending at right */
             ),
-            url('hoh-river-valley.jpg') no-repeat center center/cover;
+            url('![prettyForest](https://github.com/user-attachments/assets/ba00e26d-0920-4e60-8aec-52ce80cb105e)') no-repeat center center/cover;
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
             z-index: -1; /* Place it behind the header content */
