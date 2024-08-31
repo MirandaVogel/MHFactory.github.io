@@ -51,11 +51,18 @@
         .box1:hover, .box2:hover, .box3:hover, .box4:hover {
             background: #9abae1;
         }
-        
+        .hero, .container, .content {
+                outline: 1px solid red; /* Temporary outline for debugging */
+            }
+            
+            .card {
+                outline: 1px solid blue; /* Temporary outline for debugging */
+            }
         /*Big box below options*/
         .container {
             background: #4a5587;
             max-width: 1400px;
+            width: 100%; /* Ensure it takes the full width of the screen */
             margin: 0 auto;
             padding: 1rem;
         }
