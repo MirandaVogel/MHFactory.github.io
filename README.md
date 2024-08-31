@@ -24,6 +24,7 @@
             color: #fff;
             padding: 1rem 0;
             text-align: center;
+            border-radius: 10px; /* Adds rounded corners */
         }
         /* Long box bellow Miranda V*/
         nav {
