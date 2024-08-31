@@ -19,12 +19,19 @@
         }
         /* Miranda Top Box */
         header {
-            background: #4a5587 ;
+            background: linear-gradient(
+                to bottom,
+                rgba(74, 85, 135, 0.8), /* Solid color at the top with some transparency */
+                rgba(74, 85, 135, 0.9) 50%, /* Gradual fade to more solid color */
+                rgba(74, 85, 135, 1) 100% /* Solid color at the bottom */
+                ),
+                url('your-image-url.jpg') no-repeat center center/cover; /* Background image */
             color: #fff;
             padding: 1rem 0;
             text-align: center;
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
+            background-blend-mode: multiply;
         }
         /* Long box below Miranda V */
         nav {
