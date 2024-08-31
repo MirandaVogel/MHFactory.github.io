@@ -207,23 +207,23 @@
 
     <div class="container">
         <section class="content">
-            <div class="card"  id="Research">
+            <div class="card"  id="Research" id="About" id="Services">
                 <img src="https://via.placeholder.com/300" alt="Placeholder Image">
-                <h2 id="About">Research</h2>
-                <p>YoutubeAPI Which Mental Health Disorders Most Represented. </p>
+                <h2>Research</h2>
+                <p>YoutubeAPI which mental health disorders most represented and liked </p>
             </div>
 
             <div class="card">
                 <img src="https://via.placeholder.com/300" alt="Placeholder Image">
                 <h2 id="Services">About</h2>
-                <p>Coding Python, Java, JavaScript, and HTML. 
-                Providing youtube, instagram excel data </p>
+                <p> </p>
             </div>
 
             <div class="card">
                 <img src="https://via.placeholder.com/300" alt="Placeholder Image">
                 <h2>Services</h2>
-                <p>Description of services goes here.</p>
+                <p>Coding Python, Java, JavaScript, and HTML. 
+                Providing youtube, instagram excel data.</p>
             </div>
         </section>
     </div>
