@@ -210,7 +210,7 @@
             <div class="card"  id="Research" id="About" id="Services">
                 <img src="https://via.placeholder.com/300" alt="Placeholder                         Image">
                 <h2>Research</h2>
-                <p>YoutubeAPI which mental health disorders most represented and                 liked. Lead Artist internship at Spiderweb Software. Wrote on the modern war on poverty. </p>
+                <p>YoutubeAPI which mental health disorders most represented and                 liked. Lead Artist internship at Spiderweb Software.</p>
             </div>
 
             <div class="card">
