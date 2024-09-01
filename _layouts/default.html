@@ -18,20 +18,20 @@
             color: #333;
             display: flex;
             justify-content: center; /* Center content horizontally */
-            padding: 0 20px; /* Add padding to the sides */
+            padding: 0 20px; /* Optional: Add padding to the sides */
+            margin: 0; /* Remove default margin */
         }
-        /* Miranda Top Box */
-        header {
-            position: relative;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-            background: #4a5587; /* Solid color for the center area */
-            z-index: 1; /* Ensure it's above the pseudo-elements */
-            border-bottom: 3px solid #ffffff; /* Initial line */
+        
+        /* Content Wrapper */
+        .content-wrapper {
+            width: 100%; /* Take up full width of body */
+            max-width: 1200px; /* Limit the max width for the content */
+            background-color: white; /* Background color for your main content */
+            border-radius: 10px; /* Add rounded corners */
+            padding: 20px; /* Add some padding inside the content */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for some depth */
         }
+
         
         header::after {
             content: '';
