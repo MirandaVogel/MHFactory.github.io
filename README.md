@@ -95,7 +95,7 @@
             }
         }
         .container, .content {
-            outline: 2px solid red; /* Temporary outline for debugging */
+            outline: 2px solid white; /* Temporary outline for debugging */
         }
         
         .card {
