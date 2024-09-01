@@ -237,115 +237,115 @@
 </head>
 
 <body>
-    <div style="height: 50px;"></div>
-    <header>
-        <h1>Miranda Vogel</h1>
-    </header>
     <div class="sidebar sidebar-left"></div>
     <div class="content-area">
-        <!-- Your content goes here -->
-    </div>
-    <div class="sidebar sidebar-right"></div>
-
-    <nav>
-        <a href="#Research" class="box1">WOrk</a>
-        <a href="#About" class="box2">About</a>
-        <a href="#Services" class="box3">Services</a>
-        <a href="#Contact" class="box4">Contact</a>
-    </nav>
-
-    <section class="hero">
-        <div>
-            <h1>About Me</h1>
-        </div>
-    </section>
-
-    <div class="container">
-        <section class="content">
-            <div class="card"  id="Research">
-                <img src="https://i.im.ge/2024/09/01/f3U1Zp.thumbnail-Untitled-Artwork.png">
-                <h2><a href='https://docs.google.com/spreadsheets/d/1Q3EPUt9fOk3DMw8nTnb6QqigY4z74yHO/edit?gid=1883225853#gid=1883225853' target="_blank">Work</a></h2>
-                <p>YoutubeAPI which mental health disorders most represented and                 liked. Artist internship at Spiderweb Software. Barista.</p>
-            </div>
-
-            <div class="card"  id="About">
-                <img src="https://i.im.ge/2024/09/01/f3ac5f.thumbnail-Untitled-Artwork.png">
-                <h2 id="Services">About</h2>
-                <p>On the side watching animated tv shows like Arcane, and Gumball. Watching Valorant, Splatoon tournaments. Hiking/Camping. Art.</p>
-            </div>
-
-            <div class="card" id="Services">
-                <img src="https://i.im.ge/2024/09/01/f3Uhwc.thumbnail-Untitled-Artwork.png">
-                <h2><a href='https://docs.google.com/document/d/15_xtjdtuD_Ki7Yp-CopnXHQMeQQCg6qccsJaHg_GJRY/edit' target="_blank">Services</a></h2>
-                <p>Coding Python, Java, JavaScript, and HTML. 
-                Provide and sort youtube, instagram excel data. Can produce, inked, and digital art.</p>
+        <div style="height: 50px;"></div>
+        <header>
+            <h1>Miranda Vogel</h1>
+        </header>
+        <div class="sidebar sidebar-right"></div>
+    
+        <nav>
+            <a href="#Research" class="box1">WOrk</a>
+            <a href="#About" class="box2">About</a>
+            <a href="#Services" class="box3">Services</a>
+            <a href="#Contact" class="box4">Contact</a>
+        </nav>
+    
+        <section class="hero">
+            <div>
+                <h1>About Me</h1>
             </div>
         </section>
-    </div>
-
-    <script>
-        /* Function to generate a random number between min and max */
-        function getRandomNumber(min, max) {
-            return Math.floor(Math.random() * (max - min + 1)) + min;
-        }
-
-        /* Apply random border-radius to each corner of each box */
-        function applyRandomBorderRadius(selector) {
-            var element = document.querySelector(selector);
-            if (element) {
-                var topLeft = getRandomNumber(10, 40);
-                var topRight = getRandomNumber(10, 40);
-                var bottomRight = getRandomNumber(10, 40);
-                var bottomLeft = getRandomNumber(10, 40);
-                element.style.borderRadius = `${topLeft}px ${topRight}px ${bottomRight}px ${bottomLeft}px`;
+    
+        <div class="container">
+            <section class="content">
+                <div class="card"  id="Research">
+                    <img src="https://i.im.ge/2024/09/01/f3U1Zp.thumbnail-Untitled-Artwork.png">
+                    <h2><a href='https://docs.google.com/spreadsheets/d/1Q3EPUt9fOk3DMw8nTnb6QqigY4z74yHO/edit?gid=1883225853#gid=1883225853' target="_blank">Work</a></h2>
+                    <p>YoutubeAPI which mental health disorders most represented and                 liked. Artist internship at Spiderweb Software. Barista.</p>
+                </div>
+    
+                <div class="card"  id="About">
+                    <img src="https://i.im.ge/2024/09/01/f3ac5f.thumbnail-Untitled-Artwork.png">
+                    <h2 id="Services">About</h2>
+                    <p>On the side watching animated tv shows like Arcane, and Gumball. Watching Valorant, Splatoon tournaments. Hiking/Camping. Art.</p>
+                </div>
+    
+                <div class="card" id="Services">
+                    <img src="https://i.im.ge/2024/09/01/f3Uhwc.thumbnail-Untitled-Artwork.png">
+                    <h2><a href='https://docs.google.com/document/d/15_xtjdtuD_Ki7Yp-CopnXHQMeQQCg6qccsJaHg_GJRY/edit' target="_blank">Services</a></h2>
+                    <p>Coding Python, Java, JavaScript, and HTML. 
+                    Provide and sort youtube, instagram excel data. Can produce, inked, and digital art.</p>
+                </div>
+            </section>
+        </div>
+    
+        <script>
+            /* Function to generate a random number between min and max */
+            function getRandomNumber(min, max) {
+                return Math.floor(Math.random() * (max - min + 1)) + min;
             }
-        }
-
-        /* Apply to each box independently */
-        applyRandomBorderRadius('.box1');
-        applyRandomBorderRadius('.box2');
-        applyRandomBorderRadius('.box3');
-        applyRandomBorderRadius('.box4');
-    </script>
-    <script>
-        // Easing function for smooth start fast and slow end
-        function easeInOutQuad(t) {
-            return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
-        }
-
-        // Custom smooth scrolling function
-        function customSmoothScroll(targetElement, duration) {
-            var targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
-            var startPosition = window.pageYOffset;
-            var startTime = null;
-
-            function animation(currentTime) {
-                if (startTime === null) startTime = currentTime;
-                var timeElapsed = currentTime - startTime;
-                var run = easeInOutQuad(timeElapsed / duration) * (targetPosition - startPosition) + startPosition;
-                window.scrollTo(0, run);
-                if (timeElapsed < duration) {
-                    requestAnimationFrame(animation);
+    
+            /* Apply random border-radius to each corner of each box */
+            function applyRandomBorderRadius(selector) {
+                var element = document.querySelector(selector);
+                if (element) {
+                    var topLeft = getRandomNumber(10, 40);
+                    var topRight = getRandomNumber(10, 40);
+                    var bottomRight = getRandomNumber(10, 40);
+                    var bottomLeft = getRandomNumber(10, 40);
+                    element.style.borderRadius = `${topLeft}px ${topRight}px ${bottomRight}px ${bottomLeft}px`;
                 }
             }
-
-            requestAnimationFrame(animation);
-        }
-
-        document.querySelectorAll('nav a').forEach(link => {
-            link.addEventListener('click', function(event) {
-                event.preventDefault(); // Prevent default anchor behavior
-                var targetElement = document.querySelector(this.getAttribute('href'));
-                customSmoothScroll(targetElement, 1000); // Scroll with 1 second duration
-            });
-        });
-    </script>
     
-    <div style="height: 200px;"></div>
-
-    <footer>
-        <p id="Contact">Phone: +1(206)-765-9713 Email: Miranda.Vogel@kennedyhs.org</p>
-    </footer>
+            /* Apply to each box independently */
+            applyRandomBorderRadius('.box1');
+            applyRandomBorderRadius('.box2');
+            applyRandomBorderRadius('.box3');
+            applyRandomBorderRadius('.box4');
+        </script>
+        <script>
+            // Easing function for smooth start fast and slow end
+            function easeInOutQuad(t) {
+                return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
+            }
+    
+            // Custom smooth scrolling function
+            function customSmoothScroll(targetElement, duration) {
+                var targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+                var startPosition = window.pageYOffset;
+                var startTime = null;
+    
+                function animation(currentTime) {
+                    if (startTime === null) startTime = currentTime;
+                    var timeElapsed = currentTime - startTime;
+                    var run = easeInOutQuad(timeElapsed / duration) * (targetPosition - startPosition) + startPosition;
+                    window.scrollTo(0, run);
+                    if (timeElapsed < duration) {
+                        requestAnimationFrame(animation);
+                    }
+                }
+    
+                requestAnimationFrame(animation);
+            }
+    
+            document.querySelectorAll('nav a').forEach(link => {
+                link.addEventListener('click', function(event) {
+                    event.preventDefault(); // Prevent default anchor behavior
+                    var targetElement = document.querySelector(this.getAttribute('href'));
+                    customSmoothScroll(targetElement, 1000); // Scroll with 1 second duration
+                });
+            });
+        </script>
+        
+        <div style="height: 200px;"></div>
+    
+        <footer>
+            <p id="Contact">Phone: +1(206)-765-9713 Email: Miranda.Vogel@kennedyhs.org</p>
+        </footer>
+    </div>
+    <div class="sidebar sidebar-right"></div>
 </body>
 
 </html>
