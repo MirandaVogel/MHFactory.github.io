@@ -220,7 +220,7 @@
     <div class="container">
         <section class="content">
             <div class="card"  id="Research">
-                <img src="https://i.im.ge/2024/09/01/f3I7gf.thumbnail-Untitled-Artwork.png">
+                <img src="https://i.im.ge/2024/09/01/f3U1Zp.thumbnail-Untitled-Artwork.png">
                 <h2><a href='https://docs.google.com/spreadsheets/d/1Q3EPUt9fOk3DMw8nTnb6QqigY4z74yHO/edit?gid=1883225853#gid=1883225853' target="_blank">Work</a></h2>
                 <p>YoutubeAPI which mental health disorders most represented and                 liked. Artist internship at Spiderweb Software. Barista.</p>
             </div>
@@ -232,7 +232,7 @@
             </div>
 
             <div class="card" id="Services">
-                <img src="https://via.placeholder.com/300" alt="Placeholder      Image">
+                <img src="https://i.im.ge/2024/09/01/f3Uhwc.thumbnail-Untitled-Artwork.png">
                 <h2><a href='https://docs.google.com/document/d/15_xtjdtuD_Ki7Yp-CopnXHQMeQQCg6qccsJaHg_GJRY/edit' target="_blank">Services</a></h2>
                 <p>Coding Python, Java, JavaScript, and HTML. 
                 Provide and sort youtube, instagram excel data. Can produce, inked, and digital art.</p>
