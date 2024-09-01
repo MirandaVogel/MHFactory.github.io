@@ -61,6 +61,7 @@
             background: #fcbd84;
             position: relative;
             z-index: 2; /* Make sure the buttons are above the header lines */
+            lex-wrap: wrap; /* Allows wrapping of buttons on smaller screens */
         }
 
 
@@ -74,11 +75,24 @@
             background-color: #4a5587;
             margin: 5px;
             border-radius: 10px;
+            flex: 1 1 auto; /* Ensures buttons resize and wrap correctly */
+            text-align: center;
         }
 
         /* Hover effect */
         .box1:hover, .box2:hover, .box3:hover, .box4:hover {
             background: #9abae1;
+        }
+        /* Responsive behavior for smaller screens */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: stretch;
+            }
+        
+            .box1, .box2, .box3, .box4 {
+                margin: 5px 0; /* Adds margin between vertically stacked buttons */
+            }
         }
         .container, .content {
             outline: 2px solid red; /* Temporary outline for debugging */
@@ -97,14 +111,9 @@
         }
 
         .hero {
-            background: linear-gradient(
-                to right,
-                rgba(74, 85, 135, 0) 0%,  /* Gradient starting from left */
-                rgba(74, 85, 135, 1) 20%,   /* Fade to transparent by 20% */
-                rgba(74, 85, 135, 1) 80%,   /* Keep transparent till 80% */
-                rgba(74, 85, 135, 0) 100% /* Gradient ending at right */
-            ),
-            url('https://i.im.ge/2024/08/31/fxSnnp.ForestSmog.jpeg') no-repeat center center/cover;
+            background: url('https://i.im.ge/2024/08/31/fxSnnp.ForestSmog.jpeg') no-repeat center center/cover;
+    -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%);
+    mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%);
             color: #fff;
             min-height: 400px; /* Change height to min-height if needed */
             display: flex;
