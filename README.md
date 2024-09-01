@@ -224,7 +224,7 @@
 
             <div class="card" id="Services">
                 <img src="https://via.placeholder.com/300" alt="Placeholder      Image">
-                <h2><a href='https://docs.google.com/document/d/15_xtjdtuD_Ki7Yp-CopnXHQMeQQCg6qccsJaHg_GJRY/edit3' target="_blank">Services</a></h2>
+                <h2><a href='https://docs.google.com/document/d/15_xtjdtuD_Ki7Yp-CopnXHQMeQQCg6qccsJaHg_GJRY/edit' target="_blank">Services</a></h2>
                 <p>Coding Python, Java, JavaScript, and HTML. 
                 Provide and sort youtube, instagram excel data. Can produce, inked, and digital art.</p>
             </div>
