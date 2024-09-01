@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,12 +22,14 @@
         
         /* Content Wrapper */
         .content-wrapper {
-            max-width: 1200px; /* Limit the max width for the content */
+            max-width: 100%; /* Take up full width of body */
             background-color: white; /* Background color for your main content */
             border-radius: 10px; /* Add rounded corners */
             padding: 20px; /* Add some padding inside the content */
-            margin: 0 auto; /* Center content horizontally */
+            margin: 20px auto; /* Center content horizontally and add margin to the sides */
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for some depth */
+            z-index: -1; /* Position behind other elements */
+            position: relative; /* Ensure it's positioned correctly */
         }
 
         header {
@@ -120,10 +123,12 @@
         .container {
             background: #4a5587;
             max-width: 1400px;
-            width: 100%; /* Ensure it takes the full width of the screen */
+            width: 95%; /* Adjust the width according to your desired size */
             margin: 0 auto;
             padding: 1rem;
-            border-radius: 10px
+            border-radius: 10px;
+            z-index: 1; /* Position above the content wrapper */
+            position: relative;
         }
 
         .hero {
