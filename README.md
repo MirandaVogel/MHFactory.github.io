@@ -110,6 +110,7 @@
             width: 100%; /* Ensure it takes the full width of the screen */
             margin: 0 auto;
             padding: 1rem;
+            border-radius: 10px
         }
 
         .hero {
