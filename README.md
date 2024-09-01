@@ -219,7 +219,7 @@
             <div class="card"  id="About">
                 <img src="https://via.placeholder.com/300" alt="Placeholder      Image">
                 <h2 id="Services">About</h2>
-                <p>On the side I watch animated tv shows like Arcane, and Gumball. Watching Valorant, Splatoon tournaments. Hiking/Camping.</p>
+                <p>On the side watching animated tv shows like Arcane, and Gumball. Watching Valorant, Splatoon tournaments. Hiking/Camping. Art.</p>
             </div>
 
             <div class="card" id="Services">
