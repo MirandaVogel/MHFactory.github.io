@@ -14,7 +14,7 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            background: linear-gradient(#703575, #e667a0);
+            background: linear-gradient(#ff96c6, #96c9ff);
             color: #333;
         }
         /* Miranda Top Box */
