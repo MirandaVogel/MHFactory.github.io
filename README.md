@@ -99,10 +99,10 @@
         .hero {
             background: linear-gradient(
                 to right,
-                rgba(74, 85, 135, 0.1) 0%,  /* Gradient starting from left */
-                rgba(74, 85, 135, 0) 20%,   /* Fade to transparent by 20% */
-                rgba(74, 85, 135, 0) 80%,   /* Keep transparent till 80% */
-                rgba(74, 85, 135, 0.1) 100% /* Gradient ending at right */
+                rgba(74, 85, 135, 0) 0%,  /* Gradient starting from left */
+                rgba(74, 85, 135, 1) 20%,   /* Fade to transparent by 20% */
+                rgba(74, 85, 135, 1) 80%,   /* Keep transparent till 80% */
+                rgba(74, 85, 135, 0) 100% /* Gradient ending at right */
             ),
             url('https://i.im.ge/2024/08/31/fxSnnp.ForestSmog.jpeg') no-repeat center center/cover;
             color: #fff;
