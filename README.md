@@ -212,14 +212,14 @@
         <section class="content">
             <div class="card"  id="Research">
                 <img src="https://via.placeholder.com/300" alt="Placeholder                         Image">
-                <h2><a href='https://docs.google.com/spreadsheets/d/1Q3EPUt9fOk3DMw8nTnb6QqigY4z74yHO/edit?gid=1883225853#gid=1883225853' target="_blank">Research</a></h2>
-                <p>YoutubeAPI which mental health disorders most represented and                 liked. Lead Artist internship at Spiderweb Software.</p>
+                <h2><a href='https://docs.google.com/spreadsheets/d/1Q3EPUt9fOk3DMw8nTnb6QqigY4z74yHO/edit?gid=1883225853#gid=1883225853' target="_blank">Work</a></h2>
+                <p>YoutubeAPI which mental health disorders most represented and                 liked. Artist internship at Spiderweb Software. Barista.</p>
             </div>
 
             <div class="card"  id="About">
                 <img src="https://via.placeholder.com/300" alt="Placeholder      Image">
                 <h2 id="Services">About</h2>
-                <p>On the side I watch animated tv shows like Arcane, and Gumball. Watching Valorant, Splatoon tournaments. Independent studies.</p>
+                <p>On the side I watch animated tv shows like Arcane, and Gumball. Watching Valorant, Splatoon tournaments. Hiking/Camping.</p>
             </div>
 
             <div class="card" id="Services">
