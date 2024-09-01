@@ -156,7 +156,6 @@
             padding: 1rem;
             text-align: center;
             margin: 0 auto; /* Center the card itself */
-            border-radius: 10px;
         }
 
         .card img {
@@ -170,6 +169,7 @@
             text-align: center;
             padding: 1rem 0;
             margin-top: 2rem;
+            border-radius: 10px;
         }
         h2 a::after {
             content: none !important;
