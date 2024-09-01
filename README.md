@@ -204,6 +204,7 @@
 </head>
 
 <body>
+    <div style="height: 200px;"></div>
     <header>
         <h1>Miranda Vogel</h1>
     </header>
