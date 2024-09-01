@@ -156,6 +156,7 @@
             padding: 1rem;
             text-align: center;
             margin: 0 auto; /* Center the card itself */
+            border-radius: 10px;
         }
 
         .card img {
